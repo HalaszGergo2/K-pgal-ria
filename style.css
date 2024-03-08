@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.galeria .kep {
+    flex: 0 0 200px;
+    
+}
+.galeria img {
+    width: 100%;
+   
+}
+
+.nagykep div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.nagykep {
+    
+    border: 1px solid gray; 
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+.nagykep img {
+    width: 60%;
+}
+
